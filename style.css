@@ -1,6 +1,7 @@
 h1{
 	font-family: 'Pacifico', cursive;
 	font-size: 5rem;
+	margin: 15px;
 }
 
 html body { 
@@ -11,6 +12,10 @@ html body {
   background-size: cover;
 }
 
-d-flex{
-	flex-direction: column;
+.nav{
+	margin:5%;
+}
+
+.btn-dark{
+	margin-right: 5%;
 }
