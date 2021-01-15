@@ -1,21 +1,49 @@
+.container-fluid{
+	display: inline-block;
+	/*background-color: tomato;*/
+	justify-content: center;
+	align-content: center;
+}
+
 h1{
-	font-family: 'Pacifico', cursive;
-	font-size: 5rem;
-	margin: 15px;
+	text-align: center;
 }
 
-html body { 
-  background: url(background.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.complete{
+	width: 100%;
+	flex-direction: column;
 }
 
-.nav{
-	margin:5%;
+.left{
+	width: 20%;
 }
 
-.btn-dark{
-	margin-right: 5%;
+.right{
+	width: 70%;
+}
+
+div{
+	/*border: 1px solid black;*/
+}
+
+#banner{
+	margin-bottom: 0.5%;
+}
+
+
+@media screen and (max-width: 700px)
+{
+.row
+	{
+		flex-direction: column;
+	}
+
+.col-2{
+	width: 100%;
+	margin-bottom: 8%;
+}
+
+.col-8{
+	width: 100%;
+}
 }
