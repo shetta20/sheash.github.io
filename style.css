@@ -15,6 +15,10 @@ color: white;
     color: rgba(255,255,255,.9);
 }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: rgba(255,255,255,.9);
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255,255,255,.9);
 }
@@ -40,4 +44,14 @@ color: white;
 	background-color: #262424;
 	border-color: #262424;
 	color: rgba(255,255,255,.9);
+}
+
+.banner{
+background-color: white;
+color: black;
+}
+
+h1{
+	padding: 5%;
+	text-align: center;
 }
