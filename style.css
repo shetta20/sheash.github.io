@@ -1,62 +1,43 @@
-html{
-	font-family: 'Pontano Sans', sans-serif;
+.bgm { 
+background-color:#262424;
+color: white;
 }
 
-.container-fluid{
-	display: inline-block;
-	/*background-color: tomato;*/
-	justify-content: center;
-	align-content: center;
+.bg-light{
+	background-color: #3b3636!important;
 }
 
-h1{
-	text-align: center;
-	color: #0d6efd;
-	font-family: 'Pontano Sans', sans-serif;
-	/*size: 20rem;*/
+.navbar-light .navbar-brand{
+	color: rgba(255,255,255,.9);
 }
 
-.complete{
-	width: 100%;
-	flex-direction: column;
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255,255,255,.9);
 }
 
-.left{
-	width: 20%;
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
 }
 
-.right{
-	width: 70%;
-	font-family: 'Pontano Sans', sans-serif;
+.dropdown-menu{
+	background-color: #3b3636;
 }
 
-div{
-	/*border: 1px solid black;*/
+.dropdown-item{
+	color: rgba(255,255,255,.9);
 }
 
-#banner{
-	margin-bottom: 0.5%;
-	padding: 5%;
+.dropdown-divider{
+	border-top: 1px solid rgba(255,255,255,.9);
 }
 
-.list-group{
-	padding: 1%;
+.btn-outline-success {
+    color: rgba(255,255,255,.9);
+    border-color: #262424;
 }
 
-
-@media screen and (max-width: 700px)
-{
-.row
-	{
-		flex-direction: column;
-	}
-
-.col-2{
-	width: 100%;
-	margin-bottom: 8%;
-}
-
-.col-8{
-	width: 100%;
-}
+.btn-outline-success:hover {
+	background-color: #262424;
+	border-color: #262424;
+	color: rgba(255,255,255,.9);
 }
